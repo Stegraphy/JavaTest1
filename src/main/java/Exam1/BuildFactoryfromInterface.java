@@ -27,7 +27,10 @@ public class BuildFactoryfromInterface implements BuildList {
 //            System.out.println(list.get(i));
             List<Integer> newList = new ArrayList<Integer>();
                     newList.add(list.get(i));
-            map.put((list.get(i)/10), (ArrayList) newList);
+            for (int j = 0; j <list.size() ; j++) {
+                map.put((list.get(i)/10), (ArrayList) newList);
+            }
+
         }
 
 
