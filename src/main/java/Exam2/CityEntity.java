@@ -3,6 +3,15 @@ package Exam2;
 public class CityEntity {
     private String Country;
     private String City;
+    private Integer CityId;
+
+    public Integer getCityId() {
+        return CityId;
+    }
+
+    public void setCityId(Integer cityId) {
+        CityId = cityId;
+    }
 
     public String getCountry() {
         return Country;
