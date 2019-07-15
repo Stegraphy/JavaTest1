@@ -19,6 +19,7 @@ public class ReturnByCountryID {
         while(resultSet.next()){
             /*cityEntity.setCountry(resultSet.getString("country"));
             cityEntity.setCity(resultSet.getString("city"));*/
+            //输出城市信息
             System.out.print(resultSet.getString("country")+"------");
             System.out.println(resultSet.getString("city"));
         }
