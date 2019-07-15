@@ -3,4 +3,5 @@ HandTask
 <Exam1>
 
 
-<Exam2>
+* Exam2
+运行Mian.java
